@@ -10,10 +10,10 @@
 
 ![Certificado Básico Docker](./docker.pdf)
 
-# Python 
+# Python
 
 ![Certificado Básico Python](./python-basico.pdf)
 
 ![Certificado Intermedio Python](./python-medium.pdf)
 
-
+![Certificado Básico Polars](./polars-basic.pdf)
