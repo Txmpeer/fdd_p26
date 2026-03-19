@@ -760,6 +760,667 @@
       "title": "Módulo 9: Python"
     },
     {
+      "name": "10_ides",
+      "path": "10_ides",
+      "type": "directory",
+      "order": [
+        0,
+        10,
+        0,
+        ""
+      ],
+      "children": [
+        {
+          "name": "01_que_es_una_ide.md",
+          "path": "10_ides/01_que_es_una_ide.md",
+          "type": "file",
+          "title": "¿Qué es una IDE?",
+          "order": [
+            0,
+            1,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "02_vscode_instalacion_layout.md",
+          "path": "10_ides/02_vscode_instalacion_layout.md",
+          "type": "file",
+          "title": "VS Code: instalación, layout y shortcuts",
+          "order": [
+            0,
+            2,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "03_python_en_vscode.md",
+          "path": "10_ides/03_python_en_vscode.md",
+          "type": "file",
+          "title": "Python en VS Code (entornos, ejecutar y debuggear)",
+          "order": [
+            0,
+            3,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "04_extensiones_y_config.md",
+          "path": "10_ides/04_extensiones_y_config.md",
+          "type": "file",
+          "title": "Extensiones, settings y personalización",
+          "order": [
+            0,
+            4,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "05_jupyter_debugging.md",
+          "path": "10_ides/05_jupyter_debugging.md",
+          "type": "file",
+          "title": "Jupyter notebooks, tabs y flujo de trabajo",
+          "order": [
+            0,
+            5,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "06_proyecto_e2e_python_docker.md",
+          "path": "10_ides/06_proyecto_e2e_python_docker.md",
+          "type": "file",
+          "title": "Ejercicio E2E: proyecto Python + Docker en VS Code",
+          "order": [
+            0,
+            6,
+            0,
+            ""
+          ],
+          "summary": null
+        }
+      ],
+      "has_index": true,
+      "title": "Módulo 10: IDEs (VS Code)"
+    },
+    {
+      "name": "11_python_intermedio",
+      "path": "11_python_intermedio",
+      "type": "directory",
+      "order": [
+        0,
+        11,
+        0,
+        ""
+      ],
+      "children": [
+        {
+          "name": "01_repaso_ingenieria.md",
+          "path": "11_python_intermedio/01_repaso_ingenieria.md",
+          "type": "file",
+          "title": "Repaso: Paquetes, módulos e imports",
+          "order": [
+            0,
+            1,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "02_clases_y_oop.md",
+          "path": "11_python_intermedio/02_clases_y_oop.md",
+          "type": "file",
+          "title": "Clases y Programación Orientada a Objetos",
+          "order": [
+            0,
+            2,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "03_estilo_y_legibilidad.md",
+          "path": "11_python_intermedio/03_estilo_y_legibilidad.md",
+          "type": "file",
+          "title": "Estilo y legibilidad",
+          "order": [
+            0,
+            3,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "04_testing_y_documentacion.md",
+          "path": "11_python_intermedio/04_testing_y_documentacion.md",
+          "type": "file",
+          "title": "Testing y documentación en Python",
+          "order": [
+            0,
+            4,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "05_paquetes_instalables.md",
+          "path": "11_python_intermedio/05_paquetes_instalables.md",
+          "type": "file",
+          "title": "Paquetes instalables: de código a librería",
+          "order": [
+            0,
+            5,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "06_disenando_una_libreria.md",
+          "path": "11_python_intermedio/06_disenando_una_libreria.md",
+          "type": "file",
+          "title": "Diseñando una librería",
+          "order": [
+            0,
+            6,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "code",
+          "path": "11_python_intermedio/code",
+          "type": "directory",
+          "order": [
+            3,
+            0,
+            0,
+            ""
+          ],
+          "children": [],
+          "has_index": false,
+          "title": "Code"
+        }
+      ],
+      "has_index": true,
+      "title": "Módulo 11: Python Intermedio"
+    },
+    {
+      "name": "12_pandas",
+      "path": "12_pandas",
+      "type": "directory",
+      "order": [
+        0,
+        12,
+        0,
+        ""
+      ],
+      "children": [
+        {
+          "name": "01_pandas_en_contexto.md",
+          "path": "12_pandas/01_pandas_en_contexto.md",
+          "type": "file",
+          "title": "Pandas en contexto",
+          "order": [
+            0,
+            1,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "02_arquitectura_y_pipelines.md",
+          "path": "12_pandas/02_arquitectura_y_pipelines.md",
+          "type": "file",
+          "title": "Arquitectura y pipelines de datos",
+          "order": [
+            0,
+            2,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "code",
+          "path": "12_pandas/code",
+          "type": "directory",
+          "order": [
+            3,
+            0,
+            0,
+            ""
+          ],
+          "children": [],
+          "has_index": false,
+          "title": "Code"
+        }
+      ],
+      "has_index": true,
+      "title": "Modulo 12: Pandas — Arquitectura y Pipelines de Datos"
+    },
+    {
+      "name": "13_pandas_io",
+      "path": "13_pandas_io",
+      "type": "directory",
+      "order": [
+        0,
+        13,
+        0,
+        ""
+      ],
+      "children": [
+        {
+          "name": "01_io_y_encodings.md",
+          "path": "13_pandas_io/01_io_y_encodings.md",
+          "type": "file",
+          "title": "I/O y Encodings",
+          "order": [
+            0,
+            1,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "02_combinando_datos.md",
+          "path": "13_pandas_io/02_combinando_datos.md",
+          "type": "file",
+          "title": "Combinando DataFrames",
+          "order": [
+            0,
+            2,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "code",
+          "path": "13_pandas_io/code",
+          "type": "directory",
+          "order": [
+            3,
+            0,
+            0,
+            ""
+          ],
+          "children": [],
+          "has_index": false,
+          "title": "Code"
+        }
+      ],
+      "has_index": true,
+      "title": "Modulo 13: Pandas — I/O y Combinacion de Datos"
+    },
+    {
+      "name": "14_pandas_transformaciones",
+      "path": "14_pandas_transformaciones",
+      "type": "directory",
+      "order": [
+        0,
+        14,
+        0,
+        ""
+      ],
+      "children": [
+        {
+          "name": "01_funciones_vectorizadas.md",
+          "path": "14_pandas_transformaciones/01_funciones_vectorizadas.md",
+          "type": "file",
+          "title": "Funciones vectorizadas: apply, map y transform",
+          "order": [
+            0,
+            1,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "02_tiempo_y_groupby.md",
+          "path": "14_pandas_transformaciones/02_tiempo_y_groupby.md",
+          "type": "file",
+          "title": "Timestamps, Timezones y Groupby",
+          "order": [
+            0,
+            2,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "03_pandas3.md",
+          "path": "14_pandas_transformaciones/03_pandas3.md",
+          "type": "file",
+          "title": "Pandas 3.0 — Que cambio y por que importa",
+          "order": [
+            0,
+            3,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "code",
+          "path": "14_pandas_transformaciones/code",
+          "type": "directory",
+          "order": [
+            3,
+            0,
+            0,
+            ""
+          ],
+          "children": [],
+          "has_index": false,
+          "title": "Code"
+        }
+      ],
+      "has_index": true,
+      "title": "Modulo 14: Pandas — Transformaciones y Tiempo"
+    },
+    {
+      "name": "15_arquitectura_de_computadoras",
+      "path": "15_arquitectura_de_computadoras",
+      "type": "directory",
+      "order": [
+        0,
+        15,
+        0,
+        ""
+      ],
+      "children": [
+        {
+          "name": "01_la_maquina.md",
+          "path": "15_arquitectura_de_computadoras/01_la_maquina.md",
+          "type": "file",
+          "title": "La Máquina: Arquitectura General",
+          "order": [
+            0,
+            1,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "02_procesadores.md",
+          "path": "15_arquitectura_de_computadoras/02_procesadores.md",
+          "type": "file",
+          "title": "Los Procesadores: CPU, GPU y NPU",
+          "order": [
+            0,
+            2,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "03_rendimiento_y_escala.md",
+          "path": "15_arquitectura_de_computadoras/03_rendimiento_y_escala.md",
+          "type": "file",
+          "title": "Rendimiento y Escala",
+          "order": [
+            0,
+            3,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "scripts",
+          "path": "15_arquitectura_de_computadoras/scripts",
+          "type": "directory",
+          "order": [
+            2,
+            999,
+            0,
+            "scripts"
+          ],
+          "children": [
+            {
+              "name": "results",
+              "path": "15_arquitectura_de_computadoras/scripts/results",
+              "type": "directory",
+              "order": [
+                2,
+                999,
+                0,
+                "results"
+              ],
+              "children": [],
+              "has_index": false,
+              "title": "Results"
+            },
+            {
+              "name": "simulations.py",
+              "path": "15_arquitectura_de_computadoras/scripts/simulations.py",
+              "type": "code",
+              "title": "simulations.py",
+              "order": [
+                2,
+                999,
+                0,
+                "simulations.py"
+              ]
+            }
+          ],
+          "has_index": false,
+          "title": "Scripts"
+        },
+        {
+          "name": "code",
+          "path": "15_arquitectura_de_computadoras/code",
+          "type": "directory",
+          "order": [
+            3,
+            0,
+            0,
+            ""
+          ],
+          "children": [],
+          "has_index": false,
+          "title": "Code"
+        }
+      ],
+      "has_index": true,
+      "title": "Módulo 15: Arquitectura de Computadoras"
+    },
+    {
+      "name": "16_computo",
+      "path": "16_computo",
+      "type": "directory",
+      "order": [
+        0,
+        16,
+        0,
+        ""
+      ],
+      "children": [
+        {
+          "name": "01_procesos_y_hilos.md",
+          "path": "16_computo/01_procesos_y_hilos.md",
+          "type": "file",
+          "title": "Procesos, Hilos y el GIL",
+          "order": [
+            0,
+            1,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "02_secuencial.md",
+          "path": "16_computo/02_secuencial.md",
+          "type": "file",
+          "title": "El Framework Matemático y el Modelo Secuencial",
+          "order": [
+            0,
+            2,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "03_concurrencia_y_asincronia.md",
+          "path": "16_computo/03_concurrencia_y_asincronia.md",
+          "type": "file",
+          "title": "Concurrencia, Asincronía y los Modelos M2–M4",
+          "order": [
+            0,
+            3,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "05_paralelismo.md",
+          "path": "16_computo/05_paralelismo.md",
+          "type": "file",
+          "title": "Paralelismo — M5, Ley de Amdahl y Chatbot v3",
+          "order": [
+            0,
+            5,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "06_librerias_y_decision.md",
+          "path": "16_computo/06_librerias_y_decision.md",
+          "type": "file",
+          "title": "Librerías Python y Árbol de Decisión",
+          "order": [
+            0,
+            6,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "07_distribuido_intro.md",
+          "path": "16_computo/07_distribuido_intro.md",
+          "type": "file",
+          "title": "Cómputo Distribuido — Introducción Conceptual y Síntesis",
+          "order": [
+            0,
+            7,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "04a_asyncio_fundamentos.md",
+          "path": "16_computo/04a_asyncio_fundamentos.md",
+          "type": "file",
+          "title": "asyncio — Fundamentos: Event Loop, async/await y gather",
+          "order": [
+            2,
+            999,
+            0,
+            "04a_asyncio_fundamentos.md"
+          ],
+          "summary": null
+        },
+        {
+          "name": "04b_asyncio_patrones.md",
+          "path": "16_computo/04b_asyncio_patrones.md",
+          "type": "file",
+          "title": "asyncio — Patrones Avanzados y Anti-patrones",
+          "order": [
+            2,
+            999,
+            0,
+            "04b_asyncio_patrones.md"
+          ],
+          "summary": null
+        },
+        {
+          "name": "scripts",
+          "path": "16_computo/scripts",
+          "type": "directory",
+          "order": [
+            2,
+            999,
+            0,
+            "scripts"
+          ],
+          "children": [
+            {
+              "name": "generar_graficas.py",
+              "path": "16_computo/scripts/generar_graficas.py",
+              "type": "code",
+              "title": "generar_graficas.py",
+              "order": [
+                2,
+                999,
+                0,
+                "generar_graficas.py"
+              ]
+            },
+            {
+              "name": "results",
+              "path": "16_computo/scripts/results",
+              "type": "directory",
+              "order": [
+                2,
+                999,
+                0,
+                "results"
+              ],
+              "children": [],
+              "has_index": false,
+              "title": "Results"
+            }
+          ],
+          "has_index": false,
+          "title": "Scripts"
+        },
+        {
+          "name": "code",
+          "path": "16_computo/code",
+          "type": "directory",
+          "order": [
+            3,
+            0,
+            0,
+            ""
+          ],
+          "children": [],
+          "has_index": false,
+          "title": "Code"
+        }
+      ],
+      "has_index": true,
+      "title": "Cómputo: Secuencial, Concurrente, Paralelo y Distribuido"
+    },
+    {
       "name": "a_stack",
       "path": "a_stack",
       "type": "directory",
@@ -870,6 +1531,180 @@
       ],
       "has_index": false,
       "title": "Stack"
+    },
+    {
+      "name": "??_16_computo_v1",
+      "path": "??_16_computo_v1",
+      "type": "directory",
+      "order": [
+        2,
+        999,
+        0,
+        "??_16_computo_v1"
+      ],
+      "children": [
+        {
+          "name": "01_procesos_y_hilos.md",
+          "path": "??_16_computo_v1/01_procesos_y_hilos.md",
+          "type": "file",
+          "title": "Procesos, Hilos y el GIL",
+          "order": [
+            0,
+            1,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "02_secuencial.md",
+          "path": "??_16_computo_v1/02_secuencial.md",
+          "type": "file",
+          "title": "El Framework Matemático y el Modelo Secuencial",
+          "order": [
+            0,
+            2,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "03_concurrencia_y_asincronia.md",
+          "path": "??_16_computo_v1/03_concurrencia_y_asincronia.md",
+          "type": "file",
+          "title": "Concurrencia, Asincronía y los Modelos M2–M4",
+          "order": [
+            0,
+            3,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "05_paralelismo.md",
+          "path": "??_16_computo_v1/05_paralelismo.md",
+          "type": "file",
+          "title": "Paralelismo — M5, Ley de Amdahl y Chatbot v3",
+          "order": [
+            0,
+            5,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "06_librerias_y_decision.md",
+          "path": "??_16_computo_v1/06_librerias_y_decision.md",
+          "type": "file",
+          "title": "Librerías Python y Árbol de Decisión",
+          "order": [
+            0,
+            6,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "07_distribuido_intro.md",
+          "path": "??_16_computo_v1/07_distribuido_intro.md",
+          "type": "file",
+          "title": "Cómputo Distribuido — Introducción Conceptual y Síntesis",
+          "order": [
+            0,
+            7,
+            0,
+            ""
+          ],
+          "summary": null
+        },
+        {
+          "name": "04a_asyncio_fundamentos.md",
+          "path": "??_16_computo_v1/04a_asyncio_fundamentos.md",
+          "type": "file",
+          "title": "asyncio — Fundamentos: Event Loop, async/await y gather",
+          "order": [
+            2,
+            999,
+            0,
+            "04a_asyncio_fundamentos.md"
+          ],
+          "summary": null
+        },
+        {
+          "name": "04b_asyncio_patrones.md",
+          "path": "??_16_computo_v1/04b_asyncio_patrones.md",
+          "type": "file",
+          "title": "asyncio — Patrones Avanzados y Anti-patrones",
+          "order": [
+            2,
+            999,
+            0,
+            "04b_asyncio_patrones.md"
+          ],
+          "summary": null
+        },
+        {
+          "name": "scripts",
+          "path": "??_16_computo_v1/scripts",
+          "type": "directory",
+          "order": [
+            2,
+            999,
+            0,
+            "scripts"
+          ],
+          "children": [
+            {
+              "name": "generar_graficas.py",
+              "path": "??_16_computo_v1/scripts/generar_graficas.py",
+              "type": "code",
+              "title": "generar_graficas.py",
+              "order": [
+                2,
+                999,
+                0,
+                "generar_graficas.py"
+              ]
+            },
+            {
+              "name": "results",
+              "path": "??_16_computo_v1/scripts/results",
+              "type": "directory",
+              "order": [
+                2,
+                999,
+                0,
+                "results"
+              ],
+              "children": [],
+              "has_index": false,
+              "title": "Results"
+            }
+          ],
+          "has_index": false,
+          "title": "Scripts"
+        },
+        {
+          "name": "code",
+          "path": "??_16_computo_v1/code",
+          "type": "directory",
+          "order": [
+            3,
+            0,
+            0,
+            ""
+          ],
+          "children": [],
+          "has_index": false,
+          "title": "Code"
+        }
+      ],
+      "has_index": true,
+      "title": "Cómputo: Secuencial, Concurrente, Paralelo y Distribuido"
     },
     {
       "name": "docs",

@@ -11,6 +11,448 @@
     "components": [],
     "has_frontmatter": true
   },
+  "a_stack/01_introduction/01_cuentas.md": {
+    "path": "clase/a_stack/01_introduction/01_cuentas.md",
+    "title": "Configuración de Cuentas",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "A.1.1",
+          "title": "Crear cuentas: LLMs y DataCamp",
+          "due": "2026-01-15",
+          "points": "0"
+        },
+        "content_preview": "Crea cuentas en las plataformas de LLM (Gemini, ChatGPT, Claude, etc.) y únete al grupo de DataCamp con tu correo @itam.mx."
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "a_stack/01_introduction/00_index.md": {
+    "path": "clase/a_stack/01_introduction/00_index.md",
+    "title": "Módulo 1: Introducción",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": false
+  },
+  "a_stack/03_os_setup/01_wsl_install.md": {
+    "path": "clase/a_stack/03_os_setup/01_wsl_install.md",
+    "title": "Guía de Sistema Operativo: WSL2 y Linux",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "A.3.1",
+          "title": "Leer seccion A.3 OS Setup & Instalación de Unix ",
+          "due": "2026-01-20",
+          "points": "0"
+        },
+        "content_preview": "Leer seccion A.3 completa.  s\nInstala WSL2 en tu computadora Windows siguiendo esta guía. Verifica que funciona ejecutando  `python3 --version` o `python --version` en la terminal de Ubuntu. Si tienes"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "a_stack/03_os_setup/02_browser_env.md": {
+    "path": "clase/a_stack/03_os_setup/02_browser_env.md",
+    "title": "Guía para Estudiantes: Usar GitHub Codespaces y Ona (antes Gitpod) Solo con el Navegador",
+    "type": "lesson",
+    "order": 2,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "A.3.2",
+          "title": "Crear cuenta de GitHub y solicitar Student Pack",
+          "due": "2026-01-20",
+          "points": "0"
+        },
+        "content_preview": "Crea tu cuenta de GitHub y solicita el GitHub Student Developer Pack siguiendo esta guía. Esto es requisito para las siguientes secciones del curso."
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "a_stack/03_os_setup/00_index.md": {
+    "path": "clase/a_stack/03_os_setup/00_index.md",
+    "title": "Módulo 3: Configuración del Sistema Operativo",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": false
+  },
+  "a_stack/02_llms/01_conceptos_llm.md": {
+    "path": "clase/a_stack/02_llms/01_conceptos_llm.md",
+    "title": "Large Language Models (LLMs)",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "A.2.1",
+          "title": "leer  A.2 LLMs & Curso: AI Assisted Coding for Developers",
+          "due": "2026-01-15",
+          "points": "20"
+        },
+        "content_preview": "Leer toda la seccion A.2 LLMs, y despues completar el curso.  \nCompleta el curso [AI Assisted Coding for Developers](https://app.datacamp.com/learn/courses/ai-assisted-coding-for-developers). La evide"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "a_stack/02_llms/00_index.md": {
+    "path": "clase/a_stack/02_llms/00_index.md",
+    "title": "Módulo 2: Large Language Models (LLMs)",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": false
+  },
+  "11_python_intermedio/05_paquetes_instalables.md": {
+    "path": "clase/11_python_intermedio/05_paquetes_instalables.md",
+    "title": "Paquetes instalables: de código a librería",
+    "type": "lesson",
+    "order": 5,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "pyproject.toml mínimo",
+          "difficulty": "1"
+        },
+        "content_preview": "Tienes un paquete llamado `texto_utils` que depende de `unidecode>=1.3` y `regex>=2023.0`. El paquete tiene dos módulos: `limpieza.py` y `analisis.py`. Usa flat layout.\n\nEscribe un `pyproject.toml` co"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Haz tu paquete instalable",
+          "difficulty": "2"
+        },
+        "content_preview": "Toma el paquete `calculadora` que creaste en el ejercicio del repaso de ingeniería (sección 01) y hazlo instalable:\n\n1. Agrega un `pyproject.toml` con toda la metadata necesaria\n2. Crea un archivo `LI"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Elige tu licencia",
+          "difficulty": "1"
+        },
+        "content_preview": "Investiga las licencias MIT, Apache 2.0 y GPL v3. Responde:\n\n1. Cuál elegirías para una librería que quieres que cualquier empresa pueda usar? Por qué?\n2. Cuál elegirías si quieres que todo código der"
+      },
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Revisa mi pyproject.toml",
+          "for": "ChatGPT/Claude"
+        },
+        "content_preview": "Estoy creando un paquete de Python que [describe brevemente qué hace tu paquete]. Este es mi `pyproject.toml`:\n\n```toml\n[pega aqui tu pyproject.toml completo]\n```\n\nY esta es la estructura de mi proyec"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "11_python_intermedio/01_repaso_ingenieria.md": {
+    "path": "clase/11_python_intermedio/01_repaso_ingenieria.md",
+    "title": "Repaso: Paquetes, módulos e imports",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Verificación rápida",
+          "difficulty": "1"
+        },
+        "content_preview": "Sin ver el material de arriba, responde estas preguntas. Si no puedes responder alguna, vuelve a la sección correspondiente:\n\n1. ¿Cuál es la diferencia entre un módulo y un paquete?\n2. Si creas un arc"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Explorar la librería estándar",
+          "difficulty": "2"
+        },
+        "content_preview": "Resuelve las siguientes tareas usando **solo la librería estándar** (no puedes usar pandas ni ningún paquete externo):\n\n**Tarea 1: pathlib**\n\nUsando `pathlib`, escribe un script que reciba un director"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Mini-paquete",
+          "difficulty": "2"
+        },
+        "content_preview": "Construye un paquete llamado `texto_utils` con esta estructura:\n\n```\ntexto_utils/\n├── __init__.py\n├── limpieza.py       # limpiar, quitar_acentos, normalizar\n├── analisis.py       # contar_palabras, c"
+      },
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Revisar estructura de un paquete Python",
+          "for": "ChatGPT/Claude"
+        },
+        "content_preview": "Tengo un paquete de Python con esta estructura:\n\n```\n[pega aquí tu estructura de directorios]\n```\n\nY este es mi `__init__.py`:\n\n```python\n[pega aquí tu código]\n```\n\nRevisa:\n1. ¿La estructura tiene sen"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "11_python_intermedio/02_clases_y_oop.md": {
+    "path": "clase/11_python_intermedio/02_clases_y_oop.md",
+    "title": "Clases y Programación Orientada a Objetos",
+    "type": "lesson",
+    "order": 2,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Dunder methods",
+          "difficulty": "2"
+        },
+        "content_preview": "Tienes esta clase básica. Agrega los dunder methods necesarios para que el código de prueba funcione:\n\n```python\nclass Inventario:\n    def __init__(self, nombre, productos=None):\n        self.nombre ="
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Property y validación",
+          "difficulty": "2"
+        },
+        "content_preview": "Crea una clase `CuentaBancaria` con las siguientes reglas:\n\n1. `titular` es un string no vacío (valida con `@property`).\n2. `saldo` no puede ser negativo (valida con `@property`).\n3. Tiene un método `"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Composición vs herencia",
+          "difficulty": "2"
+        },
+        "content_preview": "Diseña un sistema de notificaciones usando **composición** (no herencia). Necesitas:\n\n1. Clase `Mensaje` que tenga `destinatario`, `asunto` y `cuerpo`.\n2. Clase `EnviadorEmail` con método `enviar(mens"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Mini-framework con ABC",
+          "difficulty": "3"
+        },
+        "content_preview": "Crea un mini-framework de transformación de datos:\n\n1. Clase abstracta `Transformacion(ABC)` con:\n   - `@abstractmethod def aplicar(self, datos: list) -> list`\n   - `@abstractmethod def describir(self"
+      },
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Revisa esta clase Python y dime qué dunder methods le agregarías y por qué",
+          "for": "ChatGPT/Claude"
+        },
+        "content_preview": "Tengo esta clase en Python:\n\n```python\n[pega aqui tu clase]\n```\n\nAnaliza:\n\n1. Qué **dunder methods** le agregarías para que se integre mejor con Python? (`__repr__`, `__str__`, `__eq__`, `__len__`, `_"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "11_python_intermedio/04_testing_y_documentacion.md": {
+    "path": "clase/11_python_intermedio/04_testing_y_documentacion.md",
+    "title": "Testing y documentación en Python",
+    "type": "lesson",
+    "order": 4,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Docstrings estilo Google",
+          "difficulty": "1"
+        },
+        "content_preview": "Las siguientes funciones no tienen documentación. Escribe docstrings estilo Google para cada una, incluyendo Args, Returns y al menos un Example:\n\n```python\ndef limpiar_texto(texto, quitar_numeros=Fal"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Suite de tests para una Calculadora",
+          "difficulty": "2"
+        },
+        "content_preview": "Dada la siguiente clase, escribe un archivo `test_calculadora.py` con al menos 8 tests usando pytest:\n\n```python\n# calculadora.py\nclass Calculadora:\n    def __init__(self):\n        self.historial = []"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Encuentra el bug con tests",
+          "difficulty": "3"
+        },
+        "content_preview": "La siguiente función tiene un bug. No lo arregles todavía -- primero **escribe tests que expongan el bug**. Tu misión:\n\n1. Escribe al menos 5 tests para `calcular_descuento`, cubriendo happy path, cas"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Parametrize a fondo",
+          "difficulty": "2"
+        },
+        "content_preview": "Escribe una función `clasificar_nota(nota)` que recibe un número del 0 al 100 y retorna:\n\n- `\"Reprobado\"` si nota < 60\n- `\"Suficiente\"` si 60 <= nota < 70\n- `\"Bien\"` si 70 <= nota < 80\n- `\"Notable\"` s"
+      },
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Generar tests para una función",
+          "for": "ChatGPT/Claude"
+        },
+        "content_preview": "Tengo la siguiente función de Python:\n\n```python\n[pega tu funcion aqui, con su docstring]\n```\n\nGenera tests exhaustivos usando pytest que cubran:\n\n1. El caso de uso normal (happy path)\n2. Casos borde "
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "11_python_intermedio/03_estilo_y_legibilidad.md": {
+    "path": "clase/11_python_intermedio/03_estilo_y_legibilidad.md",
+    "title": "Estilo y legibilidad",
+    "type": "lesson",
+    "order": 3,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Detecta los problemas",
+          "difficulty": "1"
+        },
+        "content_preview": "Este código tiene al menos **10 problemas** de estilo, naming y legibilidad. Identifica cada uno, explica qué regla viola, y reescribe el código completo corregido:\n\n```python\nimport pandas as pd\nimpo"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Agrega type hints",
+          "difficulty": "2"
+        },
+        "content_preview": "Agrega type hints completos a estas funciones. No cambies la lógica -- solo anota parámetros y retorno. Usa la sintaxis moderna de Python 3.12:\n\n```python\ndef agrupar_por(registros, campo):\n    \"\"\"Agr"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Refactoring paso a paso",
+          "difficulty": "2"
+        },
+        "content_preview": "Toma esta función y mejórala en tres pasos, como el ejemplo de la sección 5. En cada paso, aplica un patrón de refactoring diferente (renombrar, extraer función, eliminar número mágico, guard clause, "
+      },
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Revisión de estilo y legibilidad",
+          "for": "ChatGPT/Claude"
+        },
+        "content_preview": "Revisa el siguiente código Python y dame retroalimentación detallada sobre estilo y legibilidad:\n\n```python\n[pega aqui tu codigo]\n```\n\nEvalúa estos aspectos con ejemplos concretos de código corregido:"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "11_python_intermedio/00_index.md": {
+    "path": "clase/11_python_intermedio/00_index.md",
+    "title": "Módulo 11: Python Intermedio",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": false
+  },
+  "11_python_intermedio/06_disenando_una_libreria.md": {
+    "path": "clase/11_python_intermedio/06_disenando_una_libreria.md",
+    "title": "Diseñando una librería",
+    "type": "lesson",
+    "order": 6,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Define tu quantum",
+          "difficulty": "1"
+        },
+        "content_preview": "Elige un dominio que te interese (o usa uno de estos):\n\n- Validación de datos (CSVs, JSONs, inputs de usuario)\n- Conversión de formatos (fechas, unidades, monedas, archivos)\n- Análisis de texto (frecu"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Vocabulario de tu librería",
+          "difficulty": "2"
+        },
+        "content_preview": "Para la librería que elegiste en el ejercicio anterior:\n\n1. Lista **5-7 sustantivos** (las cosas con las que trabaja tu librería)\n2. Lista **5-7 verbos** (las operaciones que hace)\n3. Para cada sustan"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Dream usage",
+          "difficulty": "2"
+        },
+        "content_preview": "Escribe el **dream usage** de tu librería. Máximo 15 líneas de código.\n\nEl código no tiene que funcionar — es lo que **deseas** que exista. Incluye:\n\n1. Los imports\n2. La configuración inicial (si la "
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Estructura y sketches",
+          "difficulty": "2"
+        },
+        "content_preview": "Para tu librería:\n\n1. Dibuja la **estructura del paquete** (árbol de directorios y archivos)\n2. Escribe las **firmas con docstrings** de las 3-4 funciones/clases más importantes\n3. Escribe el `__init_"
+      },
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Tu documento de diseño",
+          "difficulty": "3"
+        },
+        "content_preview": "Escribe el documento de diseño completo para tu librería siguiendo la estructura de la sección 6.\n\n**Antes de empezar**, revisa:\n- ¿Tu quantum es realmente la cosa más pequeña útil?\n- ¿Tu dream usage "
+      },
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Revisión de diseño entre compañeros",
+          "for": "Un compañero"
+        },
+        "content_preview": "Lee el documento de diseño de tu compañero y responde:\n\n1. **¿Entiendes el problema?** Lee solo la sección \"Problema\". ¿Podrías explicarlo con tus propias palabras?\n2. **¿El dream usage tiene sentido?"
+      }
+    ],
+    "has_frontmatter": false
+  },
   "06_git/03_workflow.md": {
     "path": "clase/06_git/03_workflow.md",
     "title": "Flujo de Trabajo para Entregar Tareas",
@@ -145,6 +587,16 @@
           "points": "20"
         },
         "content_preview": "Completa el curso [Intermediate GitHub Concepts](https://app.datacamp.com/learn/courses/intermediate-github-concepts).\n\n**Entrega (igual que la tarea anterior):**\n1. Pull Request con evidencia del cer"
+      },
+      {
+        "type": "project",
+        "attrs": {
+          "id": "6.P1",
+          "title": "Proyecto: Página personal en GitHub Pages",
+          "due": "2026-05-05",
+          "points": "10"
+        },
+        "content_preview": "Crea tu propia página web y despliega en GitHub Pages. La página es libre: puede ser CV, portafolio, blog, página creativa o cualquier propuesta personal interesante.\n\nLa intención es que sea tu carta"
       }
     ],
     "has_frontmatter": false
@@ -324,10 +776,20 @@
         "attrs": {
           "id": "9.6",
           "title": "Curso de Polars",
-          "due": "2026-03-03",
+          "due": "2026-03-10",
           "points": "20"
         },
         "content_preview": "Curso de Python:https://app.datacamp.com/learn/courses/introduction-to-polars \n\nCompleta el curso y sube la certificacion a tu directorio de certificaciones, crea un nuevo file llamado python_polars_0"
+      },
+      {
+        "type": "project",
+        "attrs": {
+          "id": "9.P1",
+          "title": "Proyecto: Librería de Python publicable en PyPI",
+          "due": "2026-04-28",
+          "points": "10"
+        },
+        "content_preview": "Desarrolla una librería de Python útil y publicable. El tema es libre, pero debe resolver un problema real y tener un caso de uso claro.\n\n**Requisitos obligatorios:**\n1. Librería instalable con `pip`."
       },
       {
         "type": "homework",
@@ -350,6 +812,68 @@
         "content_preview": "Curso de Python:https://app.datacamp.com/learn/courses/introduction-to-fastapi\n\nCompleta el curso y sube la certificacion a tu directorio de certificaciones, crea un nuevo file llamado python_fast_api"
       }
     ],
+    "has_frontmatter": false
+  },
+  "12_pandas/02_arquitectura_y_pipelines.md": {
+    "path": "clase/12_pandas/02_arquitectura_y_pipelines.md",
+    "title": "Arquitectura y pipelines de datos",
+    "type": "lesson",
+    "order": 2,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Disena tu pipeline",
+          "difficulty": "2"
+        },
+        "content_preview": "Piensa en un dataset que hayas trabajado (o inventa uno: ventas de una tienda con fecha, producto, monto, cliente). Escribe en pseudocodigo (o Python real) un pipeline con al menos 4 etapas usando `.p"
+      },
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Critica mi pipeline",
+          "for": "ChatGPT/Claude"
+        },
+        "content_preview": "Pega tu pipeline de pandas en el prompt y pregunta:\n\n\"Revisa este pipeline de limpieza de datos en pandas. Identifica: (1) pasos que podrian fallar silenciosamente, (2) oportunidades de vectorizacion "
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "12_pandas/01_pandas_en_contexto.md": {
+    "path": "clase/12_pandas/01_pandas_en_contexto.md",
+    "title": "Pandas en contexto",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Reflexion",
+          "difficulty": "1"
+        },
+        "content_preview": "Piensa en un proyecto de datos que hayas hecho (o un ejercicio del curso anterior). ¿Hubo algun momento donde pandas no era la herramienta correcta? ¿Usaste `iterrows()` o un loop sobre el DataFrame? "
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "12_pandas/00_index.md": {
+    "path": "clase/12_pandas/00_index.md",
+    "title": "Modulo 12: Pandas — Arquitectura y Pipelines de Datos",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
     "has_frontmatter": false
   },
   "08_containers/04_benchmarks.md": {
@@ -669,6 +1193,178 @@
     ],
     "has_frontmatter": false
   },
+  "??_16_computo_v1/06_librerias_y_decision.md": {
+    "path": "clase/??_16_computo_v1/06_librerias_y_decision.md",
+    "title": "Librerías Python y Árbol de Decisión",
+    "type": "lesson",
+    "order": 6,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Elegir la herramienta correcta"
+        },
+        "content_preview": "Para cada escenario, elige la librería apropiada y justifica usando el árbol de decisión:\n\n1. Descargar 500 imágenes de URLs distintas (sin librería async disponible)\n2. Calcular PCA sobre una matriz "
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "??_16_computo_v1/04b_asyncio_patrones.md": {
+    "path": "clase/??_16_computo_v1/04b_asyncio_patrones.md",
+    "title": "asyncio — Patrones Avanzados y Anti-patrones",
+    "type": "lesson",
+    "order": 4,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Diagnosticar anti-patrones"
+        },
+        "content_preview": "Lee cada fragmento y determina: (1) qué anti-patrón es, (2) cuál es la consecuencia formal, (3) cómo corregirlo.\n\n```python\n# Fragmento A\nasync def buscar(query):\n    r1 = await buscar_en_bd(query)\n  "
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "??_16_computo_v1/02_secuencial.md": {
+    "path": "clase/??_16_computo_v1/02_secuencial.md",
+    "title": "El Framework Matemático y el Modelo Secuencial",
+    "type": "lesson",
+    "order": 2,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Análisis del modelo secuencial"
+        },
+        "content_preview": "Dado un servidor con τ = {τ₁, τ₂, τ₃} donde:\n- τ₁: exec = [0, 0.5], wait = [0.5, 2.0], exec = [2.0, 2.2]\n- τ₂: exec = [2.2, 3.0] (CPU-bound, sin wait)\n- τ₃: exec = [3.0, 3.2], wait = [3.2, 5.5], exec "
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "??_16_computo_v1/01_procesos_y_hilos.md": {
+    "path": "clase/??_16_computo_v1/01_procesos_y_hilos.md",
+    "title": "Procesos, Hilos y el GIL",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Reflexión previa al código"
+        },
+        "content_preview": "Antes de abrir el notebook, responde: si tu chatbot recibe 10 peticiones simultáneas y cada una tarda 2 segundos en completarse, ¿cuánto tiempo espera el último usuario con un servidor secuencial? ¿Qu"
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "??_16_computo_v1/07_distribuido_intro.md": {
+    "path": "clase/??_16_computo_v1/07_distribuido_intro.md",
+    "title": "Cómputo Distribuido — Introducción Conceptual y Síntesis",
+    "type": "lesson",
+    "order": 7,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Reflexión de cierre"
+        },
+        "content_preview": "Regresa al ejercicio de `01_procesos_y_hilos.md`: \"si tu chatbot recibe 10 peticiones simultáneas y cada una tarda 2 segundos, ¿cuánto tiempo espera el último usuario?\"\n\nAhora responde para los 4 mode"
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "??_16_computo_v1/05_paralelismo.md": {
+    "path": "clase/??_16_computo_v1/05_paralelismo.md",
+    "title": "Paralelismo — M5, Ley de Amdahl y Chatbot v3",
+    "type": "lesson",
+    "order": 5,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Calcular con Amdahl"
+        },
+        "content_preview": "Un programa tarda 100s secuencialmente. El profiling muestra:\n- 30s de lectura de archivos (I/O-bound, no paralelizable con cores)\n- 70s de procesamiento numérico (CPU-bound, paralelizable)\n\n1. Calcul"
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "??_16_computo_v1/00_index.md": {
+    "path": "clase/??_16_computo_v1/00_index.md",
+    "title": "Cómputo: Secuencial, Concurrente, Paralelo y Distribuido",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": true
+  },
+  "??_16_computo_v1/03_concurrencia_y_asincronia.md": {
+    "path": "clase/??_16_computo_v1/03_concurrencia_y_asincronia.md",
+    "title": "Concurrencia, Asincronía y los Modelos M2–M4",
+    "type": "lesson",
+    "order": 3,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Clasificar modelos de ejecución"
+        },
+        "content_preview": "Para cada escenario, indica qué modelo (M1–M4) describe mejor la situación y justifica con las definiciones formales:\n\n1. Un script que hace `requests.get(url1)`, luego `requests.get(url2)`, luego `re"
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "??_16_computo_v1/04a_asyncio_fundamentos.md": {
+    "path": "clase/??_16_computo_v1/04a_asyncio_fundamentos.md",
+    "title": "asyncio — Fundamentos: Event Loop, async/await y gather",
+    "type": "lesson",
+    "order": 4,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Predecir tiempos de gather"
+        },
+        "content_preview": "Dadas las siguientes coroutines:\n\n```python\nasync def tarea_a(): await asyncio.sleep(1.0); return \"A\"\nasync def tarea_b(): await asyncio.sleep(2.0); return \"B\"\nasync def tarea_c(): await asyncio.sleep"
+      }
+    ],
+    "has_frontmatter": true
+  },
   "07_regex/01_que_es_regex.md": {
     "path": "clase/07_regex/01_que_es_regex.md",
     "title": "¿Qué es Regex?",
@@ -822,6 +1518,63 @@
         "content_preview": "Escribe el regex para:\n\n1. Exactamente 4 dígitos (como un PIN)\n2. Una o más vocales\n3. \"hola\" o \"adios\"\n4. Cualquier caracter que NO sea vocal"
       }
     ],
+    "has_frontmatter": false
+  },
+  "14_pandas_transformaciones/01_funciones_vectorizadas.md": {
+    "path": "clase/14_pandas_transformaciones/01_funciones_vectorizadas.md",
+    "title": "Funciones vectorizadas: apply, map y transform",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": false
+  },
+  "14_pandas_transformaciones/03_pandas3.md": {
+    "path": "clase/14_pandas_transformaciones/03_pandas3.md",
+    "title": "Pandas 3.0 — Que cambio y por que importa",
+    "type": "lesson",
+    "order": 3,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Auditoria de compatibilidad",
+          "difficulty": "2"
+        },
+        "content_preview": "Toma cualquier notebook de pandas que hayas escrito (de los modulos 12, 13 o 14). Busca: (1) uso de `applymap`, (2) patrones de chained indexing como `df[cond][\"col\"] = val`, (3) uso de `.append()`, ("
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "14_pandas_transformaciones/00_index.md": {
+    "path": "clase/14_pandas_transformaciones/00_index.md",
+    "title": "Modulo 14: Pandas — Transformaciones y Tiempo",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": false
+  },
+  "14_pandas_transformaciones/02_tiempo_y_groupby.md": {
+    "path": "clase/14_pandas_transformaciones/02_tiempo_y_groupby.md",
+    "title": "Timestamps, Timezones y Groupby",
+    "type": "lesson",
+    "order": 2,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
     "has_frontmatter": false
   },
   "05_bash/05_expansion_sustitucion.md": {
@@ -1257,6 +2010,371 @@
           "difficulty": "3"
         },
         "content_preview": "```bash\necho \"=== MENÚ ===\"\necho \"1. Ver fecha\"\necho \"2. Ver usuario\"\necho \"3. Ver directorio\"\necho \"4. Salir\"\necho \"\"\nread -p \"Elige opción (1-4): \" opcion\n\n# Responder según opción\ncase $opcion in\n "
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "16_computo/06_librerias_y_decision.md": {
+    "path": "clase/16_computo/06_librerias_y_decision.md",
+    "title": "Librerías Python y Árbol de Decisión",
+    "type": "lesson",
+    "order": 6,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Elegir la herramienta correcta"
+        },
+        "content_preview": "Para cada escenario, elige la librería apropiada y justifica usando el árbol de decisión:\n\n1. Descargar 500 imágenes de URLs distintas (sin librería async disponible)\n2. Calcular PCA sobre una matriz "
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "16_computo/04b_asyncio_patrones.md": {
+    "path": "clase/16_computo/04b_asyncio_patrones.md",
+    "title": "asyncio — Patrones Avanzados y Anti-patrones",
+    "type": "lesson",
+    "order": 4,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Diagnosticar anti-patrones"
+        },
+        "content_preview": "Lee cada fragmento, identifica: (1) qué anti-patrón es, (2) cuál es la consecuencia formal, (3) cómo corregirlo.\n\n```python\n# Fragmento A\nasync def buscar(query):\n    r1 = await buscar_en_bd(query)\n  "
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "16_computo/02_secuencial.md": {
+    "path": "clase/16_computo/02_secuencial.md",
+    "title": "El Framework Matemático y el Modelo Secuencial",
+    "type": "lesson",
+    "order": 2,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Análisis del modelo secuencial"
+        },
+        "content_preview": "Dado un servidor con τ = {τ₁, τ₂, τ₃} donde:\n- τ₁: exec = [0, 0.5], wait = [0.5, 2.0], exec = [2.0, 2.2]\n- τ₂: exec = [2.2, 3.0] (CPU-bound, sin wait)\n- τ₃: exec = [3.0, 3.2], wait = [3.2, 5.5], exec "
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "16_computo/01_procesos_y_hilos.md": {
+    "path": "clase/16_computo/01_procesos_y_hilos.md",
+    "title": "Procesos, Hilos y el GIL",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Reflexión previa al código"
+        },
+        "content_preview": "Antes de abrir el notebook, responde:\n\n1. En el Escenario A, si el chatbot recibe 10 peticiones simultáneas y cada una tarda 1500ms en completarse, ¿cuánto tiempo espera el décimo usuario con un servi"
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "16_computo/07_distribuido_intro.md": {
+    "path": "clase/16_computo/07_distribuido_intro.md",
+    "title": "Cómputo Distribuido — Introducción Conceptual y Síntesis",
+    "type": "lesson",
+    "order": 7,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Reflexión de cierre"
+        },
+        "content_preview": "Regresa a la pregunta de `01_procesos_y_hilos.md`: \"si tu chatbot recibe 10 peticiones simultáneas y cada una tarda ~1.55s, ¿cuánto tiempo espera el último usuario?\"\n\nAhora responde para los 4 modelos"
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "16_computo/05_paralelismo.md": {
+    "path": "clase/16_computo/05_paralelismo.md",
+    "title": "Paralelismo — M5, Ley de Amdahl y Chatbot v3",
+    "type": "lesson",
+    "order": 5,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Calcular con Amdahl"
+        },
+        "content_preview": "Un chatbot Escenario B con inferencia local tarda en promedio:\n- 1ms de recv+parse (exec)\n- 50ms de BD (wait)\n- 2000ms de inferencia LLM (exec, CPU-bound)\n- 5ms de send (wait)\n- ~5ms de overhead IPC s"
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "16_computo/00_index.md": {
+    "path": "clase/16_computo/00_index.md",
+    "title": "Cómputo: Secuencial, Concurrente, Paralelo y Distribuido",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": true
+  },
+  "16_computo/03_concurrencia_y_asincronia.md": {
+    "path": "clase/16_computo/03_concurrencia_y_asincronia.md",
+    "title": "Concurrencia, Asincronía y los Modelos M2–M4",
+    "type": "lesson",
+    "order": 3,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Clasificar modelos de ejecución"
+        },
+        "content_preview": "Para cada escenario, indica qué modelo (M1–M4) describe mejor la situación y justifica con las definiciones formales:\n\n1. Un script que hace `requests.get(url1)`, luego `requests.get(url2)`, luego `re"
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "16_computo/04a_asyncio_fundamentos.md": {
+    "path": "clase/16_computo/04a_asyncio_fundamentos.md",
+    "title": "asyncio — Fundamentos: Event Loop, async/await y gather",
+    "type": "lesson",
+    "order": 4,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Predecir tiempos de gather"
+        },
+        "content_preview": "Dadas estas coroutines:\n\n```python\nasync def tarea_a(): await asyncio.sleep(1.0); return \"A\"\nasync def tarea_b(): await asyncio.sleep(2.0); return \"B\"\nasync def tarea_c(): await asyncio.sleep(0.5); re"
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "13_pandas_io/02_combinando_datos.md": {
+    "path": "clase/13_pandas_io/02_combinando_datos.md",
+    "title": "Combinando DataFrames",
+    "type": "lesson",
+    "order": 2,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": false
+  },
+  "13_pandas_io/01_io_y_encodings.md": {
+    "path": "clase/13_pandas_io/01_io_y_encodings.md",
+    "title": "I/O y Encodings",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Autopsia de un mojibake",
+          "difficulty": "2"
+        },
+        "content_preview": "Abre cualquier CSV con datos en espanol que tengas guardado. Leelo primero con `encoding=\"utf-8\"`, luego con `encoding=\"latin-1\"`, luego con `encoding=\"cp1252\"`. Compara los resultados en columnas con"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "13_pandas_io/00_index.md": {
+    "path": "clase/13_pandas_io/00_index.md",
+    "title": "Modulo 13: Pandas — I/O y Combinacion de Datos",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": false
+  },
+  "10_ides/06_proyecto_e2e_python_docker.md": {
+    "path": "clase/10_ides/06_proyecto_e2e_python_docker.md",
+    "title": "Ejercicio E2E: proyecto Python + Docker en VS Code",
+    "type": "lesson",
+    "order": 6,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "E2E: construir, ejecutar y debuggear (Python + Docker)",
+          "difficulty": "4"
+        },
+        "content_preview": "## Parte A — Crear el proyecto (local)\n\n1. Crea el directorio del proyecto y ábrelo en VS Code:\n\n```bash\nmkdir -p ~/e2e_ide_python_docker\ncd ~/e2e_ide_python_docker\ncode .\n```\n\n2. Crea un entorno virt"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "10_ides/01_que_es_una_ide.md": {
+    "path": "clase/10_ides/01_que_es_una_ide.md",
+    "title": "¿Qué es una IDE?",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Proyecto vs archivo suelto",
+          "difficulty": "1"
+        },
+        "content_preview": "1. Crea una carpeta:\n\n```bash\nmkdir -p ~/prueba-ide && cd ~/prueba-ide\n```\n\n2. Crea un archivo `hola.py`:\n\n```python\nprint(\"hola\")\n```\n\n3. Abre la carpeta en VS Code (lo veremos en la siguiente secció"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "10_ides/05_jupyter_debugging.md": {
+    "path": "clase/10_ides/05_jupyter_debugging.md",
+    "title": "Jupyter notebooks, tabs y flujo de trabajo",
+    "type": "lesson",
+    "order": 5,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Notebook reproducible (sin estado oculto)",
+          "difficulty": "2"
+        },
+        "content_preview": "1. Crea un proyecto y un venv:\n\n```bash\nmkdir -p ~/nb-repro && cd ~/nb-repro\nuv venv\nsource .venv/bin/activate\nuv pip install ipykernel pandas\n```\n\n2. En VS Code crea `exploracion.ipynb`.\n3. En la pri"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "10_ides/03_python_en_vscode.md": {
+    "path": "clase/10_ides/03_python_en_vscode.md",
+    "title": "Python en VS Code (entornos, ejecutar y debuggear)",
+    "type": "lesson",
+    "order": 3,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "prompt",
+        "attrs": {
+          "title": "Mi VS Code usa el Python incorrecto",
+          "for": "ChatGPT/Claude"
+        },
+        "content_preview": "Estoy en Linux/macOS/Windows(WSL2) y VS Code no está usando el intérprete correcto.\n\nMi estructura de proyecto es:\n```\n[pega el resultado de: ls -la]\n```\n\nEn VS Code seleccioné este intérprete:\n[pega "
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "10_ides/00_index.md": {
+    "path": "clase/10_ides/00_index.md",
+    "title": "Módulo 10: IDEs (VS Code)",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "homework",
+        "attrs": {
+          "id": "10.0",
+          "title": "Instalar y configurar VS Code para Python",
+          "points": "0"
+        },
+        "content_preview": "Tu meta es que al final puedas:\n- Abrir un proyecto Python (con entorno virtual)\n- Ejecutar y debuggear código desde VS Code\n- Usar Jupyter notebooks dentro de VS Code\n- Correr tu proyecto dentro de D"
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "10_ides/04_extensiones_y_config.md": {
+    "path": "clase/10_ides/04_extensiones_y_config.md",
+    "title": "Extensiones, settings y personalización",
+    "type": "lesson",
+    "order": 4,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Setup mínimo: Python + Ruff + Jupyter + Docker",
+          "difficulty": "2"
+        },
+        "content_preview": "1. Instala las extensiones: Python, Pylance, Jupyter, Ruff, Docker, Dev Containers.\n2. Reinicia VS Code (sí, a veces ayuda).\n3. Abre un proyecto Python con `.venv/`.\n4. Verifica:\n   - VS Code detecta "
+      }
+    ],
+    "has_frontmatter": false
+  },
+  "10_ides/02_vscode_instalacion_layout.md": {
+    "path": "clase/10_ides/02_vscode_instalacion_layout.md",
+    "title": "VS Code: instalación, layout y shortcuts",
+    "type": "lesson",
+    "order": 2,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Instalación verificada + navegación básica",
+          "difficulty": "1"
+        },
+        "content_preview": "1. Abre VS Code.\n2. Abre una carpeta de trabajo (cualquiera).\n3. Abre la terminal integrada y ejecuta:\n\n```bash\npwd\nls\npython3 --version\n```\n\n4. Usa `Ctrl+P` / `Cmd+P` para abrir un archivo por nombre"
       }
     ],
     "has_frontmatter": false
@@ -1916,6 +3034,81 @@
     ],
     "has_frontmatter": false
   },
+  "15_arquitectura_de_computadoras/01_la_maquina.md": {
+    "path": "clase/15_arquitectura_de_computadoras/01_la_maquina.md",
+    "title": "La Máquina: Arquitectura General",
+    "type": "lesson",
+    "order": 1,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Mapa mental de la máquina",
+          "difficulty": "1"
+        },
+        "content_preview": "Sin mirar el diagrama, dibuja en papel:\n1. El modelo de Von Neumann con sus componentes principales.\n2. La jerarquía de memoria con latencias aproximadas.\n3. La conexión GPU↔CPU con el cuello de botel"
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "15_arquitectura_de_computadoras/02_procesadores.md": {
+    "path": "clase/15_arquitectura_de_computadoras/02_procesadores.md",
+    "title": "Los Procesadores: CPU, GPU y NPU",
+    "type": "lesson",
+    "order": 2,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Elegir procesador para una tarea",
+          "difficulty": "2"
+        },
+        "content_preview": "Para cada tarea siguiente, decide qué procesador usarías (CPU, GPU o NPU) y explica brevemente por qué:\n\n1. Limpiar un CSV de 10 millones de filas con pandas.\n2. Entrenar una red neuronal convoluciona"
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "15_arquitectura_de_computadoras/03_rendimiento_y_escala.md": {
+    "path": "clase/15_arquitectura_de_computadoras/03_rendimiento_y_escala.md",
+    "title": "Rendimiento y Escala",
+    "type": "lesson",
+    "order": 3,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [
+      {
+        "type": "exercise",
+        "attrs": {
+          "title": "Estimación de Fermi — costo de entrenamiento",
+          "difficulty": "3"
+        },
+        "content_preview": "Estima el costo de entrenar un modelo de 7 billones de parámetros con 1 billón de tokens de entrenamiento:\n\n1. Usando la fórmula `FLOPs ≈ 6 × parámetros × tokens`, calcula los FLOPs totales.\n2. Asume "
+      }
+    ],
+    "has_frontmatter": true
+  },
+  "15_arquitectura_de_computadoras/00_index.md": {
+    "path": "clase/15_arquitectura_de_computadoras/00_index.md",
+    "title": "Módulo 15: Arquitectura de Computadoras",
+    "type": "lesson",
+    "order": 0,
+    "date": null,
+    "summary": null,
+    "tags": [],
+    "due_date": null,
+    "components": [],
+    "has_frontmatter": true
+  },
   "02_pipeline_de_datos/01_pipeline_de_datos.md": {
     "path": "clase/02_pipeline_de_datos/01_pipeline_de_datos.md",
     "title": "Pipeline de Datos",
@@ -2007,133 +3200,5 @@
       }
     ],
     "has_frontmatter": true
-  },
-  "a_stack/01_introduction/01_cuentas.md": {
-    "path": "clase/a_stack/01_introduction/01_cuentas.md",
-    "title": "Configuración de Cuentas",
-    "type": "lesson",
-    "order": 1,
-    "date": null,
-    "summary": null,
-    "tags": [],
-    "due_date": null,
-    "components": [
-      {
-        "type": "homework",
-        "attrs": {
-          "id": "A.1.1",
-          "title": "Crear cuentas: LLMs y DataCamp",
-          "due": "2026-01-15",
-          "points": "0"
-        },
-        "content_preview": "Crea cuentas en las plataformas de LLM (Gemini, ChatGPT, Claude, etc.) y únete al grupo de DataCamp con tu correo @itam.mx."
-      }
-    ],
-    "has_frontmatter": false
-  },
-  "a_stack/01_introduction/00_index.md": {
-    "path": "clase/a_stack/01_introduction/00_index.md",
-    "title": "Módulo 1: Introducción",
-    "type": "lesson",
-    "order": 0,
-    "date": null,
-    "summary": null,
-    "tags": [],
-    "due_date": null,
-    "components": [],
-    "has_frontmatter": false
-  },
-  "a_stack/03_os_setup/01_wsl_install.md": {
-    "path": "clase/a_stack/03_os_setup/01_wsl_install.md",
-    "title": "Guía de Sistema Operativo: WSL2 y Linux",
-    "type": "lesson",
-    "order": 1,
-    "date": null,
-    "summary": null,
-    "tags": [],
-    "due_date": null,
-    "components": [
-      {
-        "type": "homework",
-        "attrs": {
-          "id": "A.3.1",
-          "title": "Leer seccion A.3 OS Setup & Instalación de Unix ",
-          "due": "2026-01-20",
-          "points": "0"
-        },
-        "content_preview": "Leer seccion A.3 completa.  s\nInstala WSL2 en tu computadora Windows siguiendo esta guía. Verifica que funciona ejecutando  `python3 --version` o `python --version` en la terminal de Ubuntu. Si tienes"
-      }
-    ],
-    "has_frontmatter": false
-  },
-  "a_stack/03_os_setup/02_browser_env.md": {
-    "path": "clase/a_stack/03_os_setup/02_browser_env.md",
-    "title": "Guía para Estudiantes: Usar GitHub Codespaces y Ona (antes Gitpod) Solo con el Navegador",
-    "type": "lesson",
-    "order": 2,
-    "date": null,
-    "summary": null,
-    "tags": [],
-    "due_date": null,
-    "components": [
-      {
-        "type": "homework",
-        "attrs": {
-          "id": "A.3.2",
-          "title": "Crear cuenta de GitHub y solicitar Student Pack",
-          "due": "2026-01-20",
-          "points": "0"
-        },
-        "content_preview": "Crea tu cuenta de GitHub y solicita el GitHub Student Developer Pack siguiendo esta guía. Esto es requisito para las siguientes secciones del curso."
-      }
-    ],
-    "has_frontmatter": false
-  },
-  "a_stack/03_os_setup/00_index.md": {
-    "path": "clase/a_stack/03_os_setup/00_index.md",
-    "title": "Módulo 3: Configuración del Sistema Operativo",
-    "type": "lesson",
-    "order": 0,
-    "date": null,
-    "summary": null,
-    "tags": [],
-    "due_date": null,
-    "components": [],
-    "has_frontmatter": false
-  },
-  "a_stack/02_llms/01_conceptos_llm.md": {
-    "path": "clase/a_stack/02_llms/01_conceptos_llm.md",
-    "title": "Large Language Models (LLMs)",
-    "type": "lesson",
-    "order": 1,
-    "date": null,
-    "summary": null,
-    "tags": [],
-    "due_date": null,
-    "components": [
-      {
-        "type": "homework",
-        "attrs": {
-          "id": "A.2.1",
-          "title": "leer  A.2 LLMs & Curso: AI Assisted Coding for Developers",
-          "due": "2026-01-15",
-          "points": "20"
-        },
-        "content_preview": "Leer toda la seccion A.2 LLMs, y despues completar el curso.  \nCompleta el curso [AI Assisted Coding for Developers](https://app.datacamp.com/learn/courses/ai-assisted-coding-for-developers). La evide"
-      }
-    ],
-    "has_frontmatter": false
-  },
-  "a_stack/02_llms/00_index.md": {
-    "path": "clase/a_stack/02_llms/00_index.md",
-    "title": "Módulo 2: Large Language Models (LLMs)",
-    "type": "lesson",
-    "order": 0,
-    "date": null,
-    "summary": null,
-    "tags": [],
-    "due_date": null,
-    "components": [],
-    "has_frontmatter": false
   }
 }
